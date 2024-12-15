@@ -1,0 +1,23 @@
+#one{
+    color: rgb(131, 96, 15);
+    margin-left: 20px;
+    font-size: 22px;
+}
+#two{
+    margin-left: 20px;
+    font-size: 20px;
+}
+#ten{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 50px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background-color: rgb(201, 184, 184);
+}
+#seven{
+    font-size: 20px;
+}
+#nine{
+    font-size: 30px;
+}

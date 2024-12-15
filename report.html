@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Lost Items - College</title>
+    <link rel="stylesheet" href="report.css">
+</head>
+<body>
+
+    <div class="container">
+      
+        <header>
+            <h1>Report Lost Items</h1>
+            <p>Please fill out the form below to report a lost item.</p>
+        </header>
+
+        <form action="#" method="POST" id="lost-item-form">
+            <div class="form-group">
+                <label for="item-name">Item Name:</label>
+                <input type="text" required placeholder="e.g., Wallet, Phone">
+            </div>
+
+            <div class="form-group">
+                <label for="item-description">Item Description:</label>
+                <textarea required placeholder="Describe the item."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="date lost">Date of item loss</label>
+                <input type="date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="place-lost">Place of Loss:</label>
+                <input type="text" required placeholder="e.g., Library, Cafeteria,E-block">
+            </div>
+
+            <div class="form-group">
+                <label for="contact-info">Contact Information:</label>
+                <input type="text" required placeholder="Phone or Email">
+            </div>
+
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
